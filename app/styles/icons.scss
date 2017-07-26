@@ -1,0 +1,99 @@
+/*!
+ * icons.scss
+ *
+ * Biterest Key Collector
+ * Copyright (c) 2018 All Rights Reserved by Biterest (https://biterest.com/)
+ *
+ *  Permission is hereby granted, free of charge, to any person obtaining a copy
+ *  of this software and associated documentation files (the "Software"), to deal
+ *  in the Software without restriction, including without limitation the rights
+ *  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ *  copies of the Software, and to permit persons to whom the Software is
+ *  furnished to do so, subject to the following conditions:
+ *
+ *  The above copyright notice and this permission notice shall be included in
+ *  all copies or substantial portions of the Software.
+ *
+ *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ *  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ *  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ *  THE SOFTWARE.
+ */
+
+@import "variables";
+@import "~font-awesome/scss/_variables";
+
+.ms-Icon {
+  font-family: FontAwesome !important;
+}
+
+.#{$fa-css-prefix} {
+  font-size: 0 !important;
+
+  &::before {
+    font-size: 16px;
+  }
+}
+
+.#{$fa-css-prefix}[data-icon-name="bitcoin"]::before {
+  content: $fa-var-bitcoin;
+}
+
+.#{$fa-css-prefix}[data-icon-name="bug"]::before {
+  content: $fa-var-bug;
+}
+
+.#{$fa-css-prefix}[data-icon-name="Cancel"]::before {
+  content: $fa-var-close;
+}
+
+.#{$fa-css-prefix}[data-icon-name="Completed"]::before {
+  content: $fa-var-check-circle;
+}
+
+.#{$fa-css-prefix}[data-icon-name="email"]::before {
+  content: $fa-var-at;
+}
+
+.#{$fa-css-prefix}[data-icon-name="Error"]::before {
+  content: $fa-var-exclamation-circle;
+}
+
+.#{$fa-css-prefix}[data-icon-name="ErrorBadge"]::before {
+  content: $fa-var-exclamation-circle;
+}
+
+.#{$fa-css-prefix}[data-icon-name="github"]::before {
+  content: $fa-var-github;
+}
+
+.#{$fa-css-prefix}[data-icon-name="help"]::before {
+  content: $fa-var-life-ring;
+}
+
+.#{$fa-css-prefix}[data-icon-name="info"]::before {
+  content: $fa-var-info;
+}
+
+.#{$fa-css-prefix}[data-icon-name="Info"]::before {
+  content: $fa-var-info;
+}
+
+.#{$fa-css-prefix}[data-icon-name="key"]::before {
+  content: $fa-var-key;
+}
+
+.#{$fa-css-prefix}[data-icon-name="settings"]::before {
+  content: $fa-var-cog;
+}
+
+.#{$fa-css-prefix}[data-icon-name="twitter"]::before {
+  content: $fa-var-twitter;
+}
+
+.#{$fa-css-prefix}[data-icon-name="www"]::before {
+  content: $fa-var-globe;
+}

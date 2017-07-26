@@ -1,0 +1,28 @@
+{
+  "presets": [
+    ["env", {
+      "targets": { "node": 7 },
+      "useBuiltIns": true
+    }],
+    ["es2015", { "modules": false }],
+    "stage-0",
+    "react"
+  ],
+  "plugins": [
+    "add-module-exports",
+    "dynamic-import-webpack",
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }]
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        ["c-3po", { "extract": {
+          "output": "./app/i18n/template.pot"
+        }}]
+      ]
+    }
+  }
+}
