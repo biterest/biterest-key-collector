@@ -1,0 +1,371 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: app/utils/sendTransaction.ts:17
+#: app/utils/sendTransaction.ts:24
+msgid "Не удалось отправить транзакцию в сеть"
+msgstr ""
+
+#: app/utils/fetchNetworkFees/fetchNetworkFees.ts:21
+msgid ""
+"Ошибка в получении данных по комиссии в сети Bitcoin, перезапустите "
+"приложение."
+msgstr ""
+
+#: app/utils/fetchUnspentOutputs/fetchUnspentOutputs.ts:25
+msgid "Ошибка в получении данных по транзакциям"
+msgstr ""
+
+#: app/components/BugPanel/BugPanel.tsx:28
+msgid "форму обратной связи на сайте Biterest"
+msgstr ""
+
+#: app/components/BugPanel/BugPanel.tsx:31
+msgid ""
+"Не удалось отправить сообщение – повторите попытку позже или обратитесь к\n"
+"разработчикам через ${ link }."
+msgstr ""
+
+#: app/components/BugPanel/BugPanel.tsx:38
+msgid "Сообщение отправлено. Мы ответим в ближайшие дни."
+msgstr ""
+
+#: app/components/BugPanel/BugPanel.tsx:42
+msgid ""
+"Опишите возникшую проблему. Наш ответ будет дан на указанный вами адрес "
+"электронной\n"
+"почты."
+msgstr ""
+
+#: app/components/BugPanel/BugPanel.tsx:50
+#: app/pages/HomePage.tsx:30
+msgid "Сообщить о проблеме"
+msgstr ""
+
+#: app/components/Confirm/Confirm/Confirm.tsx:27
+msgid "Заполните все поля"
+msgstr ""
+
+#: app/components/Confirm/Confirm/Confirm.tsx:28
+msgid "Прежде чем перевести залог на другой Bitcoin-адрес, заполните все поля."
+msgstr ""
+
+#: app/components/Confirm/Confirm/Confirm.tsx:32
+msgid "Multisig-адрес пуст"
+msgstr ""
+
+#: app/components/Confirm/Confirm/Confirm.tsx:33
+msgid "Данный multisig-адрес не содержит средств"
+msgstr ""
+
+#: app/components/Confirm/Confirm/Confirm.tsx:37
+msgid "Ошибка отправки транзакции"
+msgstr ""
+
+#: app/components/Confirm/Confirm/Confirm.tsx:53
+msgid "Отправить залог"
+msgstr ""
+
+#: app/pages/AgreementPage.tsx:12
+#: app/pages/HomePage.tsx:36
+msgid "Cайт Biterest"
+msgstr ""
+
+#: app/pages/AgreementPage.tsx:18
+#: app/pages/HomePage.tsx:42
+msgid "Исходный код"
+msgstr ""
+
+#: app/pages/AgreementPage.tsx:33
+msgid ""
+"Программа Key Collector позволяет забрать залог, размещенный на "
+"multisig-адресе и\n"
+"переслать его на указанный вами Bitcoin-адрес. Для получения залога вам\n"
+"необходимы ключи, полученные при работе с кредитной заявкой на Biterest."
+msgstr ""
+
+#: app/pages/AgreementPage.tsx:40
+msgid "Принять"
+msgstr ""
+
+#: app/components/SettingsPanel/SettingsPanel.tsx:24
+#: app/pages/HomePage.tsx:18
+msgid "Настройки"
+msgstr ""
+
+#: app/components/ManualPanel/ManualPanel.tsx:12
+#: app/pages/HomePage.tsx:24
+msgid "Инструкция"
+msgstr ""
+
+#: app/pages/HomePage.tsx:93
+msgid ""
+"Укажите ключи для проверки наличия средств на multisig-адресе. Для отправки\n"
+"средств, дополнительно укажите ваш Bitсoin-адрес и подтвердите операцию."
+msgstr ""
+
+#: app/components/Confirm/ConfirmDetails/ConfirmDetails.tsx:14
+#: app/components/TransactionHistory/TransactionHistory/TransactionHistory.tsx:50
+msgid "Отказаться"
+msgstr ""
+
+#: app/components/Confirm/ConfirmDetails/ConfirmDetails.tsx:17
+msgid "Подтвердить перевод средств"
+msgstr ""
+
+#: app/components/Confirm/ConfirmDetails/ConfirmDetails.tsx:30
+msgid "Подтвердите перевод средств"
+msgstr ""
+
+#: app/components/Confirm/ConfirmDetails/ConfirmDetails.tsx:32
+msgid ""
+"Скорость зачисления средств зависит от работы сети blokchain (обычно "
+"составляет до\n"
+"4 часов). После подтверждения перевода средств - операция не обратима."
+msgstr ""
+
+#: app/components/Confirm/ConfirmSuccess/ConfirmSuccess.tsx:15
+msgid "blockchain"
+msgstr ""
+
+#: app/components/Confirm/ConfirmSuccess/ConfirmSuccess.tsx:18
+msgid "Продолжить"
+msgstr ""
+
+#: app/components/Confirm/ConfirmSuccess/ConfirmSuccess.tsx:22
+msgid "Транзакция отправлена"
+msgstr ""
+
+#: app/components/Confirm/ConfirmSuccess/ConfirmSuccess.tsx:24
+msgid ""
+"Вы переслали залог на указанный вами Bitcoin-адрес. Вы можете посмотреть "
+"статус транзакции в ${ link }."
+msgstr ""
+
+#: app/forms/BugForm/BugForm.tsx:12
+msgid "Поле должно содержать корректный адрес электронной почты."
+msgstr ""
+
+#: app/forms/BugForm/BugForm.tsx:13
+#: app/forms/BugForm/BugForm.tsx:16
+msgid "Заполните поле"
+msgstr ""
+
+#: app/forms/KeyForm/KeyForm.tsx:13
+#: app/forms/KeyForm/KeyForm.tsx:16
+#: app/forms/KeyForm/KeyForm.tsx:19
+msgid "Проверьте корректность указанного вами ключа."
+msgstr ""
+
+#: app/forms/AddressForm/AddressForm.tsx:13
+msgid "Адрес не проходит проверку, проверьте вводимые данные."
+msgstr ""
+
+#: app/components/Confirm/ConfirmTable/ConfirmTable.tsx:14
+msgid "Multisig-адрес списания:"
+msgstr ""
+
+#: app/components/Confirm/ConfirmTable/ConfirmTable.tsx:20
+msgid "Bitcoin-адрес зачисления:"
+msgstr ""
+
+#: app/components/Confirm/ConfirmTable/ConfirmTable.tsx:26
+#: app/components/TransactionHistory/TransactionHistoryItem/TransactionHistoryItem.tsx:24
+msgid "Сумма:"
+msgstr ""
+
+#: app/components/Confirm/ConfirmTable/ConfirmTable.tsx:28
+#: app/components/TransactionHistory/TransactionHistoryItem/TransactionHistoryItem.tsx:25
+msgid "${ amount } BTC"
+msgstr ""
+
+#: app/components/Confirm/ConfirmTable/ConfirmTable.tsx:32
+#: app/components/TransactionHistory/TransactionHistoryItem/TransactionHistoryItem.tsx:28
+msgid "Комиссия сети:"
+msgstr ""
+
+#: app/components/Confirm/ConfirmTable/ConfirmTable.tsx:34
+#: app/components/TransactionHistory/TransactionHistoryItem/TransactionHistoryItem.tsx:29
+msgid "${ fees.network } BTC"
+msgstr ""
+
+#: app/forms/BugForm/BugFormForm/BugFormForm.tsx:9
+msgid "Ваш адрес электронной почты"
+msgstr ""
+
+#: app/forms/BugForm/BugFormForm/BugFormForm.tsx:10
+msgid "Опишите проблему"
+msgstr ""
+
+#: app/forms/BugForm/BugFormForm/BugFormForm.tsx:12
+msgid "Отправить"
+msgstr ""
+
+#: app/forms/KeyForm/KeyFormForm/KeyFormForm.tsx:8
+msgid ""
+"Укажите Приватный ключ, созданный Biterest для данной кредитной заявки. "
+"Выдается\n"
+"после завершения кредитной сделки"
+msgstr ""
+
+#: app/forms/KeyForm/KeyFormForm/KeyFormForm.tsx:11
+msgid "Приватный ключ Biterest"
+msgstr ""
+
+#: app/forms/KeyForm/KeyFormForm/KeyFormForm.tsx:13
+msgid ""
+"Укажите Приватный ключ, сохраненный вами для доступа к залогу данной "
+"кредитной\n"
+"заявки"
+msgstr ""
+
+#: app/forms/KeyForm/KeyFormForm/KeyFormForm.tsx:16
+msgid "Ваш Приватный ключ"
+msgstr ""
+
+#: app/forms/KeyForm/KeyFormForm/KeyFormForm.tsx:18
+msgid ""
+"Укажите Открытый ключ другой стороны сделки. Выдается вместе с Приватным "
+"ключом\n"
+"Biterest после завершения кредитной сделки."
+msgstr ""
+
+#: app/forms/KeyForm/KeyFormForm/KeyFormForm.tsx:21
+msgid "Открытый ключ другой стороны"
+msgstr ""
+
+#: app/forms/KeyForm/KeyFormForm/KeyFormForm.tsx:25
+msgid "Проверка средств на multisig-адресе"
+msgstr ""
+
+#: app/forms/KeyForm/KeyFormForm/KeyFormForm.tsx:32
+msgid "Сбросить значения"
+msgstr ""
+
+#: app/forms/AddressForm/AddressFormForm/AddressFormForm.tsx:7
+msgid ""
+"Укажите Bitcoin-адрес на который будет перечислен залог. Внимание! Будет "
+"перечислена\n"
+"вся сумма. Из сумма будет списана комиссия сети Bitcoin.\n"
+"Операция не обратима – внимательно\n"
+"проверьте адрес, на который будет переведен залог."
+msgstr ""
+
+#: app/forms/AddressForm/AddressFormForm/AddressFormForm.tsx:12
+msgid "Bitcoin-адрес для перечисления залога"
+msgstr ""
+
+#: app/forms/AddressForm/AddressFormForm/AddressFormForm.tsx:15
+msgid "Перевод средств"
+msgstr ""
+
+#: app/utils/sendBug.ts:17
+msgid "Не удалось отправить сообщение"
+msgstr ""
+
+#: app/components/AppHeader/AppHeader.tsx:6
+msgid "Biterest"
+msgstr ""
+
+#: app/components/AppHeader/AppHeader.tsx:7
+msgid "Key Collector"
+msgstr ""
+
+#: app/components/AppHeader/AppHeader.tsx:8
+msgid "Beta version"
+msgstr ""
+
+#: app/components/BottomMenu/BottomMenu.tsx:25
+#: app/components/LicenseAgreementPanel/LicenseAgreementPanel.tsx:12
+msgid "Лицензионное соглашение"
+msgstr ""
+
+#: app/components/DepositStatus/DepositStatus.tsx:24
+msgid "Multisig-адрес: ${ address }"
+msgstr ""
+
+#: app/components/DepositStatus/DepositStatus.tsx:25
+msgid "Сумма: ${ amount } BTC"
+msgstr ""
+
+#: app/components/DepositStatus/DepositStatus.tsx:28
+msgid "Посмотреть на blockchain"
+msgstr ""
+
+#: app/components/DepositStatus/DepositStatus.tsx:33
+msgid "Ожидаем..."
+msgstr ""
+
+#: app/components/DepositStatus/DepositStatus.tsx:34
+msgid "Значение автоматически отобразится после заполнения полей с ключами"
+msgstr ""
+
+#: app/components/DepositStatus/DepositStatus.tsx:39
+msgid "Статус залога"
+msgstr ""
+
+#: app/components/SettingsPanel/SettingsPanel.tsx:25
+msgid "Язык интерфейса"
+msgstr ""
+
+#: app/components/SettingsPanel/SettingsPanel.tsx:27
+msgid "Сохранить"
+msgstr ""
+
+#: app/components/TransactionHistory/TransactionHistory/TransactionHistory.tsx:36
+msgid "История транзакций"
+msgstr ""
+
+#: app/components/TransactionHistory/TransactionHistory/TransactionHistory.tsx:45
+msgid "Подтвердите очистку истории"
+msgstr ""
+
+#: app/components/TransactionHistory/TransactionHistory/TransactionHistory.tsx:47
+msgid "После подтверждения, история транзакций очистится безвозвратно."
+msgstr ""
+
+#: app/components/TransactionHistory/TransactionHistory/TransactionHistory.tsx:51
+msgid "Подтвердить"
+msgstr ""
+
+#: app/components/TransactionHistory/TransactionHistory/TransactionHistory.tsx:55
+msgid "Очистить историю"
+msgstr ""
+
+#: app/components/Confirm/ConfirmError/ConfirmError.tsx:13
+msgid "Хорошо"
+msgstr ""
+
+#: app/components/FeeSlider/FeeSlider/FeeSlider.tsx:28
+msgid "Минимальная"
+msgstr ""
+
+#: app/components/FeeSlider/FeeSlider/FeeSlider.tsx:29
+msgid "Средняя"
+msgstr ""
+
+#: app/components/FeeSlider/FeeSlider/FeeSlider.tsx:30
+msgid "Максимальная"
+msgstr ""
+
+#: app/components/TransactionHistory/TransactionHistoryItem/TransactionHistoryItem.tsx:20
+msgid "Статус:"
+msgstr ""
+
+#: app/components/TransactionHistory/TransactionHistoryItem/TransactionHistoryItem.tsx:21
+msgid "Исполнено"
+msgstr ""
+
+#: app/components/TransactionHistory/TransactionHistoryItem/TransactionHistoryItem.tsx:35
+msgid "Посмотртеть на blockchain"
+msgstr ""
+
+#: app/components/FeeSlider/FeeSliderLoader/FeeSliderLoader.tsx:6
+msgid "Получение данных о комиссии сети..."
+msgstr ""
+
+#: app/components/FeeSlider/FeeSliderSlider/FeeSliderSlider.tsx:15
+msgid "Комиссия сети Bitcoin за перевод средств"
+msgstr ""

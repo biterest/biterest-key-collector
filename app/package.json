@@ -1,0 +1,17 @@
+{
+  "name": "key-collector",
+  "productName": "Biterest KeyCollector",
+  "version": "1.0.0",
+  "description": "Electron application for Biterest",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Biterest.com",
+    "email": "support@biterest.com",
+    "url": "https://biterest.com"
+  },
+  "scripts": {
+    "postinstall": "npm rebuild --runtime=electron --target=1.6.6 --disturl=https://atom.io/download/atom-shell --build-from-source"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "app",
+    "module": "es6",
+    "jsx": "preserve",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "target": "es6",
+    "removeComments": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

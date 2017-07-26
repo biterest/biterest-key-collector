@@ -1,0 +1,67 @@
+/*
+ * settings.ts
+ *
+ * Biterest Key Collector
+ * Copyright (c) 2018 All Rights Reserved by Biterest (https://biterest.com/)
+ *
+ *  Permission is hereby granted, free of charge, to any person obtaining a copy
+ *  of this software and associated documentation files (the "Software"), to deal
+ *  in the Software without restriction, including without limitation the rights
+ *  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ *  copies of the Software, and to permit persons to whom the Software is
+ *  furnished to do so, subject to the following conditions:
+ *
+ *  The above copyright notice and this permission notice shall be included in
+ *  all copies or substantial portions of the Software.
+ *
+ *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ *  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ *  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ *  THE SOFTWARE.
+ */
+
+import { useLocale } from 'c-3po'
+import { default as collection } from 'electron-settings'
+import { Dispatch } from 'react-redux'
+import { Action, handleActions } from 'redux-actions'
+
+import { ISettingsState } from './ISettingsState'
+
+// ------------------------------------
+// Constants
+// ------------------------------------
+const SETTINGS_SET_LOCALE = 'SETTINGS_SET_LOCALE'
+
+// ------------------------------------
+// Actions
+// ------------------------------------
+export const setLocale = (locale: string) => (dispatch: Dispatch<ISettingsState>) => {
+  useLocale(locale)
+  collection.set('locale', locale)
+
+  dispatch({ type: SETTINGS_SET_LOCALE, payload: locale })
+}
+
+// ------------------------------------
+// Initial state
+// ------------------------------------
+
+const initialState: ISettingsState = {
+  locale: collection.get('locale') as any,
+}
+
+// ------------------------------------
+// Action handlers
+// ------------------------------------
+export const settings = handleActions<ISettingsState, any>(
+  {
+    [SETTINGS_SET_LOCALE]: (state, { payload }: Action<string>): ISettingsState => ({
+      ...state,
+      locale: payload,
+    }),
+  },
+  initialState,
+)
