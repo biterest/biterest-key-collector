@@ -24,6 +24,8 @@
  */
 
 import { Menu } from 'electron';
+import { t } from 'c-3po'
+
 
 export default class MenuBuilder {
   constructor(mainWindow) {
@@ -34,6 +36,10 @@ export default class MenuBuilder {
     if (process.env.NODE_ENV === 'development' || process.env.DEBUG_PROD === 'true') {
       this.setupDevelopmentEnvironment();
       return
+    }
+    if (process.env.NODE_ENV === 'production') {
+        this.setupProdEnvironment();
+        return
     }
 
     this.mainWindow.setMenu(null);
@@ -46,8 +52,35 @@ export default class MenuBuilder {
         .buildFromTemplate([{
           label: 'Inspect element',
           click: () => this.mainWindow.inspectElement(x, y),
+        }, {
+            label: t`Paste`,
+            role: 'paste',
+        }, {
+            label: t`Cut`,
+            role: 'cut',
+        }, {
+            label: t`Copy`,
+            role: 'copy',
         }])
         .popup(this.mainWindow)
     })
   }
+
+    setupProdEnvironment() {
+        this.mainWindow.webContents.on('context-menu', (e, { x, y }) => {
+            Menu
+                .buildFromTemplate([{
+                    label: t`Paste`,
+                    role: 'paste',
+                }, {
+                    label: t`Cut`,
+                    role: 'cut',
+                }, {
+                    label: t`Copy`,
+                    role: 'copy',
+                }])
+                .popup(this.mainWindow)
+        })
+    }
+
 }

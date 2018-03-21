@@ -230,7 +230,10 @@ msgid ""
 "The speed of funds transfer depends on the operation of the blokchain\n"
 "network (usually up to 4 hours). After confirming the transfer of funds -\n"
 "the operation is irreversible."
-msgstr "Подтвердить перевод средств"
+msgstr ""
+"Скорость зачисления средств зависит от работы сети blokchain (обычно \n"
+"составляет до\n"
+"4 часов). После подтверждения перевода средств - операция не обратима."
 
 #: app/components/Confirm/ConfirmError/ConfirmError.tsx:13
 msgid "Ok"
@@ -406,3 +409,18 @@ msgstr "Проверка средств на multisig-адресе"
 #: app/forms/KeyForm/KeyFormForm/KeyFormForm.tsx:33
 msgid "Reset values"
 msgstr "Сбросить значения"
+
+#: app/menu.js:56
+#: app/menu.js:74
+msgid "Paste"
+msgstr "Вставить"
+
+#: app/menu.js:59
+#: app/menu.js:77
+msgid "Cut"
+msgstr "Вырезать"
+
+#: app/menu.js:62
+#: app/menu.js:80
+msgid "Copy"
+msgstr "Копировать"

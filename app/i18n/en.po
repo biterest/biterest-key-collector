@@ -412,3 +412,18 @@ msgstr "Check funds on multisig-address"
 #: app/forms/KeyForm/KeyFormForm/KeyFormForm.tsx:33
 msgid "Reset values"
 msgstr "Reset values"
+
+#: app/menu.js:56
+#: app/menu.js:74
+msgid "Paste"
+msgstr "Paste"
+
+#: app/menu.js:59
+#: app/menu.js:77
+msgid "Cut"
+msgstr "Cut"
+
+#: app/menu.js:62
+#: app/menu.js:80
+msgid "Copy"
+msgstr "Copy"
