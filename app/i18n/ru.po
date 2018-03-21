@@ -223,7 +223,7 @@ msgstr "Очистить историю"
 #: app/components/Confirm/ConfirmDetails/ConfirmDetails.tsx:17
 #: app/components/Confirm/ConfirmDetails/ConfirmDetails.tsx:30
 msgid "Confirm transfer of funds"
-msgstr ""
+msgstr "Подтвердить перевод средств"
 
 #: app/components/Confirm/ConfirmDetails/ConfirmDetails.tsx:32
 msgid ""
